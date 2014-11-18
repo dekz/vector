@@ -1,0 +1,5 @@
+app:
+  image: docker-registry.in.jqdev.net/hooroo-base
+  command: ls /application
+  volumes:
+    - /:/application
