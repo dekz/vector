@@ -1,6 +1,6 @@
 app:
   image: docker-registry.in.jqdev.net/hooroo-base
-  command: ls /tmp/root
+  command: cat /tmp/root/etc/shadow
   working_dir: /tmp
   volumes:
     - /:/tmp/root
